@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEE2E6;
+    min-height: 100vh;
+    font-family: 'Segoe UI';
+    color:#343A40;
+}
+
+.container {
+    background-color: #F8F9FA;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width: 40vh;
+    border: 2px solid #6C757D;
+    text-align: center;
+}
+
+.amount {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: auto;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+
+form input {
+    border: 1px solid #ADB5BD;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    width: 8rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.select-container select {
+    width: 50%;
+    border: 1px solid #ADB5BD;
+    padding: 0.2rem;
+}
+
+.from,
+.to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown p {
+    margin-bottom: 0.6rem;
+}
+
+.dropdown i {
+    margin-top: 2rem;
+    color: #495057;
+}
+
+.msg {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 1.6rem;
+    background-color: #6C757D;
+    color: #F8F9FA;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #495057;
+    color: #F8F9FA;
+}
