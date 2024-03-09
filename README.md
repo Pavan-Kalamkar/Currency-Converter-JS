@@ -5,7 +5,7 @@ It's a webapp that converts currency rates of specific countries, built in conce
 - HTML5
 - CSS
 - Javascript
-- API
+- REST API
 
 ### Preview 
 [link](https://pavan-kalamkar.github.io/Currency-Converter-Js)
