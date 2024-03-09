@@ -8,4 +8,4 @@ It's a webapp that converts currency rates of specific countries, built in conce
 - API
 
 ### Preview 
-[link](https://pavan-kalamkar.github.io/Currency-Converter-JS)
+[link](https://pavan-kalamkar.github.io/Currency-Converter-Js)
